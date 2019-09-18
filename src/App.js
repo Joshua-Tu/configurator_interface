@@ -1,10 +1,17 @@
 import React from "react";
 import SettingsPage from "./components/SettingsPage";
+import MyTag from "./components/MyTag";
+
 const App = () => {
   return (
     <>
       <SettingsPage>
-        <h1>Insert Content Here</h1>
+        <MyTag>Chrome</MyTag>
+        {/* <MyTag>Firefox</MyTag>
+        <MyTag>Explorer</MyTag>
+        <MyTag>Safari</MyTag>
+        <MyTag>Opera</MyTag>
+        <MyTag>Incognito</MyTag> */}
       </SettingsPage>
     </>
   );
