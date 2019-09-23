@@ -1,19 +1,17 @@
 import React from "react";
+import "antd/dist/antd.css";
 import SettingsPage from "./components/SettingsPage";
-import MyTag from "./components/MyTag";
+import BrowserType from "./components/BrowserType";
+import Parameters from "./components/Parameters";
 
 const App = () => {
   return (
-    <>
+    <div className="ui container">
       <SettingsPage>
-        <MyTag>Chrome</MyTag>
-        {/* <MyTag>Firefox</MyTag>
-        <MyTag>Explorer</MyTag>
-        <MyTag>Safari</MyTag>
-        <MyTag>Opera</MyTag>
-        <MyTag>Incognito</MyTag> */}
+        <BrowserType />
+        <Parameters />
       </SettingsPage>
-    </>
+    </div>
   );
 };
 export default App;
